@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Dishes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #d4edda; /* Light green background */
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shading effect */
+        }
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card shadow for depth */
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #00dbde, #fc00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), 0 0 10px rgba(252, 0, 255, 0.7), 0 0 20px rgba(252, 0, 255, 0.7), 0 0 30px rgba(252, 0, 255, 0.7);
+            }
+            to {
+                text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 219, 222, 0.7), 0 0 30px rgba(0, 219, 222, 0.7), 0 0 40px rgba(0, 219, 222, 0.7);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container py-5">
+        <h1 class="text-center">Popular Dishes</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+            <div class="col">
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CAKE</h5>
+                        <p class="card-text">Sweet baked food made from a dough or thick batter usually containing flour and sugar and often shortening, eggs, and a raising agent (such as baking powder) c. : a flattened usually round mass of food that is baked or fried. a fish cake.</p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <h3>195</h3>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1694141251195-2cf78a758fda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmlyeWFuaXxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BIRIYANI</h5>
+                        <p class="card-text">Biryani is a celebratory rice and meat dish cherished in the Indian sub-continent. A traditional biryani consists of fluffy basmati rice layered over tender & succulent pieces of meat, accompanied with the mesmerizing aromas of spices, herbs & caramelized onions.</p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <h3>190</h>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2019/11/14/07/17/smoothie-4625476_640.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Juice</h5>
+                        <p class="card-text">Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. It can also refer to liquids that are flavored with concentrate or other biological food sources, such as meat or seafood, such as clam juice.</p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <h3>90</h>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1207467053/photo/chicken-kabsa-homemade-arabian-rice.jpg?s=612x612&w=0&k=20&c=m6QwmWXVcyLIx1LQF_prsTbP8AJtTksaIIv8srQx1Hc=" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Majmoose</h5>
+                        <p class="card-text">Chicken Majboos Recipe is an Arabic spiced rice dish that is serve with chicken. It is considered a national dish in Arabian Gulf State in the Middle East.
+
+                            Just for your information, I was born in Kuwait and lived there for almost 18 years, and I learned so much about their history and culture. One of the most important things I learned is their food. Kuwaiti cuisine has one of the most delicious foods which is similar to most Middle Eastern and Arab Gulf countries. One of the popular dishes in Kuwait that is commonly served among Kuwaiti families in the house is Chicken Majboos..</p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <h3>200</h>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1089135718/photo/tiramisu.jpg?s=2048x2048&w=is&k=20&c=dBpS90eJ0HDZYSKZ76t6Hb_VQq-GpRyBolNkYxjEzFs=" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">TIRAMISU CAKE</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos accusantium amet similique velit iste.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consectetur vel accusamus voluptas aut sapiente atque tenetur inventore, magni consequuntur doloremque. Fuga totam rerum quasi maiores laboriosam pariatur ducimus rem.</p>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
+                        <h3>80</h3>
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="https://th.bing.com/th/id/OIP.cnqifPbwq-jduA_dl9a7DwHaKf?w=202&h=286&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">TIRAMISU CAKE</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dignissimos accusantium amet similique velit iste.</p>
+                        <h3>80</h3>
+                    </div>
+                    <div class="mb-5 d-flex justify-content-around">
